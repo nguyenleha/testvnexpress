@@ -1,0 +1,197 @@
+.bodystory2 {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+
+    .tieude {
+        margin: 0 10px 10px 0;
+        font-weight: 600;
+        font-size: 17px;
+    }
+
+    p {
+        margin: 0 10px;
+        font-size: 14px;
+    }
+
+    @media only screen and (max-width: 1100px) {
+        .bodystory2-right-1 {
+
+            ul {
+                .bodystory2-right-active {
+                    display: block;
+                }
+
+                li {
+                    display: none;
+                }
+            }
+
+            .tieude {
+                margin: 10px 10px 10px 0 !important;
+            }
+
+            p {
+                margin: 10px 10px 10px 0 !important;
+            }
+
+            .story2-abs {
+                .story2-abs-top {
+                    display: block !important;
+
+                    .story2-abs-left {
+                        width: 100% !important;
+                        display: block !important;
+                        border-right: none !important;
+                        border-bottom: 1px solid #e5e5e5;
+
+                        .hinh {
+                            width: 100% !important;
+
+                        }
+
+                        .noidung {
+                            width: 100% !important;
+
+                        }
+                    }
+
+                    .story2-abs-right {
+                        width: 100% !important;
+                    }
+                }
+
+                .story2-abs-center {
+
+                    .story2-abs-left,
+                    .story2-abs-right {
+                        div {
+                            padding-left: 0px !important;
+                            padding-bottom: 20px;
+                        }
+                    }
+
+                    
+
+                }
+
+            }
+        }
+    }
+
+    .bodystory2-left {
+        width: 400px;
+        border-right: 1px solid #e5e5e5;
+        padding-right: 20px;
+
+        .bodystory2-left-1 {
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #e5e5e5;
+
+
+
+            .noidung {
+                display: flex;
+
+                img {
+                    height: 92px;
+                }
+            }
+        }
+
+
+    }
+
+    .bodystory2-right {
+        width: 760px;
+
+        .bodystory2-right-1 {
+            margin: 0 0 30px 20px;
+
+            ul {
+                margin: 0;
+                padding: 0;
+                display: flex;
+
+                .bodystory2-right-active {
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 17px;
+                    padding-bottom: 10px;
+                    border-bottom: 1px solid #610c0c;
+                }
+
+                li {
+                    margin-right: 10px;
+                    font-size: 15px;
+                }
+            }
+
+            .story2-abs {
+                .tieude {
+                    margin: 0 0 10px 10px;
+                }
+
+                .story2-abs-top {
+                    display: flex;
+                    margin-top: 10px;
+                    padding-bottom: 10px;
+                    border-bottom: 1px solid #e5e5e5;
+
+                    .story2-abs-left {
+                        width: 67%;
+                        display: flex;
+                        border-right: 1px solid #e5e5e5;
+
+                        .hinh {
+                            width: 50%;
+
+                            img {
+                                width: 100%;
+                            }
+                        }
+
+                        .noidung {
+                            width: 50%;
+                        }
+                    }
+
+                    .story2-abs-right {
+                        width: 33%;
+                    }
+                }
+
+                .story2-abs-center {
+                    margin-top: 10px;
+                    font-weight: 600;
+                    font-size: 17px;
+                    padding-bottom: 20px;
+                    border-bottom: 1px solid #e5e5e5;
+
+                    .story2-abs-left,
+                    .story2-abs-right {
+                        div {
+                            padding-left: 20px;
+                        }
+                    }
+
+                    .story2-abs-left {
+                        width: 67%;
+                        display: flex;
+                        border: none;
+
+                        div {
+                            width: 50%;
+                        }
+                    }
+
+                }
+
+            }
+        }
+
+
+
+    }
+}

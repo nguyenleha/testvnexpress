@@ -1,0 +1,105 @@
+.darkBG {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100vw;
+    height: 100Vh;
+    z-index: 90;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 91;
+    transform: translate(-50%, -50%);
+
+    .modal {
+        width: 450px;
+        height: 350px;
+        background: white;
+        color: white;
+        z-index: 10;
+        border-radius: 16px;
+        box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+
+        .modalHeader {
+            height: 65px;
+            background: white;
+            overflow: hidden;
+            border-top-left-radius: 16px;
+            border-top-right-radius: 16px;
+
+            .heading {
+                margin: 0;
+                padding: 20px;
+                color: #ff0800;
+                font-weight: 700;
+                font-size: 28px;
+                text-align: center;
+            }
+        }
+
+        .modalContent {
+            
+            font-size: 14px;
+            color: #2c3e50;
+            text-align: center;
+            .e-login{
+                width: 277px;
+                height: 50px;
+                margin: 0 auto;
+                margin-top: 20px;
+                border: 1px solid #e5e5e5;
+                border-radius: 5px;
+                padding: 0 10px;
+                outline-color: #fc484881;
+            }
+            .btnlogin{
+                width: 300px;
+                height: 50px;
+                margin: 0 auto;
+                margin-top: 20px;
+                border: none;
+                font-weight: 700;
+                border-radius: 5px;
+                padding: 0 10px;
+            }
+            .btnlogin:hover{
+                background-color: #fc484881;
+            }
+            .btnllmk{
+                border: none;
+                width: 300px;
+                height: 50px;
+                background: none;
+            }
+        }
+
+        .closeBtn {
+            cursor: pointer;
+            font-weight: 500;
+            padding: 4px 8px;
+            border-radius: 8px;
+            border: none;
+            font-size: 18px;
+            color: #2c3e50;
+            background: white;
+            transition: all 0.25s ease;
+            box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.06);
+            position: absolute;
+            right: 0;
+            top: 0;
+            align-self: flex-end;
+            margin-top: -7px;
+            margin-right: -7px;
+        }
+
+        .closeBtn:hover {
+            box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+            transform: translate(-4px, 4px);
+        }
+    }
+}
